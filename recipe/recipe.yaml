@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.7.0"
+  version: "0.14.0"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/dau-build/dau_build-${{ version }}.tar.gz
-  sha256: e22c9f86a0b46ae1d3026685c989eaf1f824e28c937a8f7a62214774dbe3bdfb
+  sha256: b18cfab4476545ed0018e62b0f5bb7f1966352a241f0d332565a2342b43d6965
 
 build:
   number: 0
