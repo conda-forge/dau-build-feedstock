@@ -33,8 +33,10 @@ requirements:
     - dau-sim >=0.2.0
     - dau-utils
     - hydra-core
+    - lerna >=2.0.4
+    - omegaconf
     - pydantic
-    - pyslang
+    - pyslang >=11
     - pyyaml
     - typing-extensions
 
