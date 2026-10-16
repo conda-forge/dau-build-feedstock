@@ -1,8 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.14.0"
-  python_min: "3.11"
+  version: "0.15.0"
 
 package:
   name: dau-build
@@ -10,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/dau-build/dau_build-${{ version }}.tar.gz
-  sha256: b18cfab4476545ed0018e62b0f5bb7f1966352a241f0d332565a2342b43d6965
+  sha256: f1c6cd4402c646c2c0a7a3be5684345f5fdac42ddd2eea62adb05cb322496dad
 
 build:
   number: 0
@@ -33,8 +32,10 @@ requirements:
     - dau-sim >=0.2.0
     - dau-utils
     - hydra-core
+    - lerna >=2.0.4
+    - omegaconf
     - pydantic
-    - pyslang
+    - pyslang >=11
     - pyyaml
     - typing-extensions
 
