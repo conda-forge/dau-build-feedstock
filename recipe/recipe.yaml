@@ -27,7 +27,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - amaranth
-    - artlink
+    - artlink >=0.2
     - ccflow >=0.8.5
     - dau-sim >=0.3
     - dau-utils
