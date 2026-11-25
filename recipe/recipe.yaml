@@ -29,7 +29,7 @@ requirements:
     - amaranth
     - artlink >=0.2
     - ccflow >=0.8.5
-    - dau-sim >=0.3
+    - dau-sim >=0.5
     - dau-utils
     - hydra-core
     - lerna >=2.0.4
